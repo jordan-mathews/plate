@@ -10,7 +10,7 @@ import {
 import { decode } from 'html-entities';
 
 import { createElementWithSlate } from './utils/createElementWithSlate';
-import { renderToStaticMarkup } from './utils/renderToStaticMarkupClient';
+import { renderToStaticMarkup } from 'react-dom/server';
 import { stripClassNames } from './utils/stripClassNames';
 
 export const elementToHtml = <V extends Value>(
